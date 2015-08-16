@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Josefin+Slab);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Slab, Open+Sans);
 
 body{
 font-family: 'Josefin Slab', serif;
@@ -6,18 +6,26 @@ color:#7a8b99;
 font-size: 20px;
 }
 
+/*title Beauty Van*/
 h1{
-	font-size: 40px;
+	font-size: 60px;
 }
 
 h2{
 	font-size: 20px;
 }
 
+#wrapper{
+	margin: 34px 34px;
+}
+
 #header{
+	background-color: #fff;
 	position:fixed;
 	width:100%;
-	padding-top: 10px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	border-bottom-width: 1px;
 }
 
 #title{
@@ -25,12 +33,14 @@ h2{
 }
 
 #Treatments{
-	padding-top:130px;
+	padding-top:160px;
+	font-family:'Open Sans', sans-serif;
 }
 
-#top{
-	padding-bottom: 25px;
+#Treatments h2{
+	font-size: 28px;
 }
+
 
 #bottom{
 	text-align: center;
@@ -43,6 +53,7 @@ h2{
     z-index: 2;
     background-color: #f5f5f5;
     overflow: hidden;
+    line-height: 1.5;
 }
 
 #bottom-container div{
@@ -50,14 +61,18 @@ h2{
     width: 32.26%;
     text-align: center;
     margin-bottom: 0px;
-    height: 120px;
+    height: 200px;
+}
+
+a{
+	padding: 10px;
 }
 
 div.tweets{
 	border-right: thin solid #969696;
 }
 
-div.contact{
+div.hours{
 	border-right: thin solid #969696;
 }
 
@@ -69,6 +84,7 @@ div.contact{
 	margin: 0px;
 	width: 100%;
 	text-align: center;
+	overflow: hidden;
 }
 
 
@@ -146,13 +162,16 @@ li{
     background-repeat: no-repeat;
     background-position: center 30px;
     background-color: #F5F5F5;
-    line-height: 80px;
+    line-height: 200px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 28px;
     letter-spacing: 2px;
     font-weight: 300;
-    color: #666666;
+}
+
+iframe{
+	text-align: center;
 }
 
 #footer{
